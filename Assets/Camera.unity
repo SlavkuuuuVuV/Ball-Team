@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRotationComposer
   Composition:
-    ScreenPosition: {x: -0.0012499988, y: 0}
+    ScreenPosition: {x: -0.00083333254, y: -0.00222224}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
@@ -358,12 +358,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2890867}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2566677, y: 0.001240018, z: -0.0003293047, w: 0.96649885}
-  m_LocalPosition: {x: 0, y: 2.53, z: -3.8899999}
+  m_LocalRotation: {x: -0.16858983, y: 0.19905704, z: -0.16670899, w: 0.95087427}
+  m_LocalPosition: {x: -7.245005, y: -1.3467383, z: -0.15099216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1905385586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135363212
 GameObject:
@@ -564,8 +564,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459643661}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2566677, y: 0.0012400182, z: -0.0003293047, w: 0.96649885}
-  m_LocalPosition: {x: 0, y: 2.53, z: -3.8899999}
+  m_LocalRotation: {x: 0.2579076, y: 0.0008264093, z: -0.00022060036, w: 0.96616924}
+  m_LocalPosition: {x: 0, y: 2.53, z: -3.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -671,8 +671,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021506954}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13, z: -0.45}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.13000001, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -831,7 +831,8 @@ Transform:
   m_LocalPosition: {x: 5.71, y: 3.28, z: 0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2890873}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &1905385587
@@ -873,7 +874,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 459643664}
-  - {fileID: 2890873}
   - {fileID: 1905385586}
   - {fileID: 135363216}
   - {fileID: 1021506955}
