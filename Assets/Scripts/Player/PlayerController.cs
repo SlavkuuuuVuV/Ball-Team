@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     {
         var rb = GetComponent<Rigidbody>();
 
-        //_playerInput = new PlayerInput();
+        _playerInput = new PlayerInput();
         _movement = new PlayerMove(rb, moveForce);
     }
 
